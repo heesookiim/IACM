@@ -1,0 +1,14 @@
+<resources>
+    <string name="app_name">IACM</string>
+    <string name="title_activity_maps">Map</string>
+    <string name="legend">Legend</string>
+    <string name="color_blue">Blue</string>
+    <string name="color_orange">Orange</string>
+    <string name="color_green">Green</string>
+    <string name="color_yellow">Yellow</string>
+    <string name="accessible_entrance">Accessible Entrance</string>
+    <string name="inaccessible_entrance">Inaccessible Entrance</string>
+    <string name="accessible_bathroom">Accessible Bathroom</string>
+    <string name="inaccessible_bathroom">Inaccessible Bathroom</string>
+    <string name="ok">OK</string>
+</resources>

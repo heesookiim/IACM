@@ -1,0 +1,139 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:layout_marginTop="20dp"
+        android:text="@string/legend"
+        android:autoSizeTextType="uniform"
+        android:autoSizePresetSizes="@array/autosize_text_sizes"
+        android:textAlignment="center"
+        android:textStyle="bold"
+        android:textColor="@color/black"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.498"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintBottom_toTopOf="@id/tableLayout"/>
+
+    <TableLayout
+        android:id="@+id/tableLayout"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_marginTop="20dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/textView"
+        android:layout_marginBottom="20dp">
+
+        <TableRow
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_marginTop="0dp"
+            android:layout_marginBottom="20dp">
+            <ImageView
+                android:layout_height="wrap_content"
+                android:layout_width="wrap_content"
+                android:src="@drawable/accessible_entrance_color"
+                android:contentDescription="@string/color_blue"
+                android:layout_marginStart="30dp"
+                android:layout_marginTop="10dp">
+            </ImageView>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="25dp"
+                android:autoSizeTextType="uniform"
+                android:textSize="18sp"
+                android:text="@string/accessible_entrance"
+                android:paddingStart="30dp"
+                android:layout_marginTop="5dp"
+                android:textColor="@color/black" />
+        </TableRow>
+
+        <TableRow
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_marginTop="20dp"
+            android:layout_marginBottom="20dp">
+            <ImageView
+                android:layout_height="wrap_content"
+                android:layout_width="wrap_content"
+                android:src="@drawable/inaccessible_entrance_color"
+                android:contentDescription="@string/color_orange"
+                android:layout_marginStart="30dp"
+                android:layout_marginTop="10dp">
+            </ImageView>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="25dp"
+                android:paddingStart="30dp"
+                android:text="@string/inaccessible_entrance"
+                android:textColor="@color/black"
+                android:layout_marginTop="5dp"
+                android:autoSizeTextType="uniform"
+                android:textSize="18sp"/>
+        </TableRow>
+
+        <TableRow
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_marginTop="20dp"
+            android:layout_marginBottom="20dp">
+            <ImageView
+                android:layout_height="wrap_content"
+                android:layout_width="wrap_content"
+                android:src="@drawable/accessible_bathroom_color"
+                android:contentDescription="@string/color_green"
+                android:layout_marginStart="30dp"
+                android:layout_marginTop="10dp">
+            </ImageView>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="25dp"
+                android:paddingStart="30dp"
+                android:text="@string/accessible_bathroom"
+                android:textColor="@color/black"
+                android:layout_marginTop="5dp"
+                android:autoSizeTextType="uniform"
+                android:textSize="18sp"/>
+        </TableRow>
+
+        <TableRow
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_marginTop="20dp"
+            android:layout_marginBottom="20dp">
+            <ImageView
+                android:layout_height="wrap_content"
+                android:layout_width="wrap_content"
+                android:src="@drawable/inaccessible_bathroom_color"
+                android:contentDescription="@string/color_yellow"
+                android:layout_marginStart="30dp"
+                android:layout_marginTop="10dp">
+            </ImageView>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="25dp"
+                android:paddingStart="30dp"
+                android:layout_marginTop="5dp"
+                android:text="@string/inaccessible_bathroom"
+                android:textColor="@color/black"
+                android:autoSizeTextType="uniform"
+                android:textSize="18sp"/>
+        </TableRow>
+    </TableLayout>
+
+</androidx.constraintlayout.widget.ConstraintLayout>

@@ -1,0 +1,2 @@
+rootProject.name = "IACM"
+include ':app'
