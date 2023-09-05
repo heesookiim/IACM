@@ -5,7 +5,7 @@ The Interactive and Accessible Campus Map (IACM) is a sub-team within the MOBI g
 ## Overview
 ![image](https://github.com/heesookiim/IACM/assets/107389219/6f8ff4c4-f6f8-4e2d-b4a6-ee2fddeb7cf3)
 ![image](https://github.com/heesookiim/IACM/assets/107389219/d76bf0ff-14bf-4e72-8f86-b11ba0ddda89)
-![image](https://github.com/heesookiim/IACM/assets/107389219/4567529a-54cf-429b-9ffb-21ec9269912f)
+![image](https://github.com/heesookiim/IACM/assets/107389219/e123b949-d83f-4d6a-a181-bc16019c63f6)
 ![image](https://github.com/heesookiim/IACM/assets/107389219/63fb6949-2d49-4fde-9c9a-9214b5b3d7c8)
 
 
