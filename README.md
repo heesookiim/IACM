@@ -2,6 +2,15 @@
 
 The Interactive and Accessible Campus Map (IACM) is a sub-team within the MOBI group of EPICS. Our goal is to create an application that can assist people with accessibility requirements in navigating the Purdue campus. This app is written in Java and heavily uses the Google Maps SDK.
 
+## Overview
+![image](https://github.com/heesookiim/IACM/assets/107389219/6f8ff4c4-f6f8-4e2d-b4a6-ee2fddeb7cf3)
+![image](https://github.com/heesookiim/IACM/assets/107389219/e3f15603-31fe-4ac9-83e5-3127932bc1c5)
+![image](https://github.com/heesookiim/IACM/assets/107389219/4567529a-54cf-429b-9ffb-21ec9269912f)
+![image](https://github.com/heesookiim/IACM/assets/107389219/63fb6949-2d49-4fde-9c9a-9214b5b3d7c8)
+
+
+
+
 ## How to run the IACM App:
 
 1. Ensure your choice of IDE is installed. Android Studio was used for 1.0 and 2.0. 
